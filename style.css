@@ -18,6 +18,7 @@
   nav {
       display: flex;
       justify-content: space-between;
+      align-items: center;
   }
 
   nav-title {
@@ -44,6 +45,7 @@
   }
 
   /* banner section  */
+
   .banner-content {
       max-width: 800px;
       margin: 0 auto;
@@ -75,11 +77,38 @@
       width: 180px;
       height: 64px;
       border-style: none;
+      cursor: pointer;
   }
 
   img {
       border-radius: 8px;
-      width: 840px;
-      height: 400px;
+      /* width: 840px;
+      height: 400px; */
       margin-top: 30px;
+      width: 100%;
+  }
+
+
+
+  /* responsive section  */
+  /* mobile  */
+  @media screen and (max-width:576px) {
+      header {
+          padding: 20px;
+      }
+
+      nav {
+          flex-direction: column;
+      }
+  }
+
+  /* tablets or medium */
+  @media screen and (min-width:577px) and (max-width:992px) {
+      header {
+          padding: 20px;
+      }
+
+      nav {
+          flex-direction: column;
+      }
   }
