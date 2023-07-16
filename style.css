@@ -163,22 +163,23 @@
       main {
           margin: 20px 20px
       }
+  }
 
-      /* tablets or medium */
-      @media screen and (min-width:577px) and (max-width:992px) {
-          header {
-              padding: 20px;
-          }
-
-          nav {
-              flex-direction: column;
-          }
-
-          section .teams-container {
-              flex-direction: column;
-          }
-
-          .teams-img {
-              grid-template-columns: repeat(2, 1fr);
-          }
+  /* tablets or medium */
+  @media screen and (min-width:577px) and (max-width:992px) {
+      header {
+          padding: 20px;
       }
+
+      nav {
+          flex-direction: column;
+      }
+
+      .teams-container {
+          flex-direction: column;
+      }
+
+      .teams-img {
+          grid-template-columns: repeat(2, 1fr);
+      }
+  }
